@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #fff8f0;
+  color: #333;
+}
+
+header {
+  background: #ffb6c1;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Pacifico", cursive; /* 👈 this applies the Google Font */
+  font-size: 3em;
+  color: #e91e63; /* pretty pink */
+}
+
+#searchBox {
+  margin-top: 10px;
+  padding: 10px;
+  width: 60%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Flower gallery grid */
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.flower-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.3s;
+}
+
+.flower-card:hover {
+  transform: scale(1.05);
+}
+
+.flower-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  background: #ffb6c1;
+  padding: 15px;
+  margin-top: 20px;
+}
